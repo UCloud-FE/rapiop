@@ -1,4 +1,4 @@
-import mod from '@rapiop/mod';
+import mod from '@ucloud-fe/mod';
 
 import { ProjectConfig } from '../interface';
 

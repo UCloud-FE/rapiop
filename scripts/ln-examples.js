@@ -13,7 +13,7 @@ let examples = lsResult
 
 _.each(examples, example => {
     const examplePath = path.join(__dirname, examplesPath, example);
-    const rapiopPath = path.join(examplePath, 'node_modules/@rapiop/rapiop');
+    const rapiopPath = path.join(examplePath, 'node_modules/@ucloud-fe/rapiop');
     if (fs.existsSync(rapiopPath)) {
         childProcess.execSync(`rm -rf ${rapiopPath}`);
     }

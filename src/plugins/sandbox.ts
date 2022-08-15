@@ -1,6 +1,6 @@
 import { createSandbox } from 'z-sandbox';
-import { load } from '@rapiop/mod/lib/loader/fileLoader';
-import mod from '@rapiop/mod';
+import { load } from '@ucloud-fe/mod/lib/loader/fileLoader';
+import mod from '@ucloud-fe/mod';
 
 import Hooks from '../Hooks';
 import { classifyFiles } from '../lib/load';

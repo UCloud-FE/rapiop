@@ -4,7 +4,7 @@ set -e
 
 cachepath=".gh-pages-cache"
 
-giturl="git@github.com:rapiop/rapiop.github.io.git"
+giturl="git@github.com:ucloud-fe/rapiop.github.io.git"
 
 echo "enter folder"
 cd examples/advance

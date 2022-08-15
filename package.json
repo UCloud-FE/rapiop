@@ -1,11 +1,11 @@
 {
-  "name": "@rapiop/rapiop",
+  "name": "@ucloud-fe/rapiop",
   "version": "2.1.1",
   "description": "Run all project in one place/project",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rapiop/rapiop.git"
+    "url": "git+https://github.com/ucloud-fe/rapiop.git"
   },
   "keywords": [
     "rapiop",
@@ -14,9 +14,9 @@
     "frontend"
   ],
   "bugs": {
-    "url": "https://github.com/rapiop/rapiop/issues"
+    "url": "https://github.com/ucloud-fe/rapiop/issues"
   },
-  "homepage": "https://github.com/rapiop/rapiop#readme",
+  "homepage": "https://github.com/ucloud-fe/rapiop#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "start": "NODE_ENV=development webpack-dev-server",
@@ -49,7 +49,7 @@
     "@babel/plugin-transform-runtime": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-typescript": "^7.3.3",
-    "@rapiop/mod": "^1",
+    "@ucloud-fe/mod": "^1",
     "@types/lodash": "^4.14.136",
     "@types/tapable": "^1.0.4",
     "babel-eslint": "^10.0.1",
@@ -70,7 +70,7 @@
     "webpack-dev-server": "^3.1.11"
   },
   "peerDependencies": {
-    "@rapiop/mod": "^0.1 | ^1"
+    "@ucloud-fe/mod": "^0.1 | ^1"
   },
   "jest": {
     "testMatch": [
