@@ -1165,14 +1165,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@ucloud-fe/mod@^1":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@ucloud-fe/mod/-/mod-1.1.2.tgz#190b27dea067e02454fe58b5a145c37e97fd7843"
-  integrity sha512-HDMB9DBdFn8aLZdFN0y+FP2iLEcC+b2nJKzmv3y2fN+MNJvCdp8RPWpWOar2W6wmrj1x48jgp+aA1uDEoCDgRw==
-  dependencies:
-    "@babel/runtime" "^7.10.2"
-    core-js "^3.6.5"
-
 "@sinonjs/commons@^1.7.0":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.7.2.tgz#505f55c74e0272b43f6c52d81946bed7058fc0e2"
@@ -1293,6 +1285,14 @@
   integrity sha512-9T1auFmbPZoxHz0enUFlUuKRy3it01R+hlggyVUMtnCTQRunsQYifnSGb8hET4Xo8yiC0o0r1paW3ud5+rbURg==
   dependencies:
     "@types/yargs-parser" "*"
+
+"@ucloud-fe/mod@^1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@ucloud-fe/mod/-/mod-1.2.1.tgz#50531e816cceab1e89d2037b83055da088c9a90d"
+  integrity sha512-eAS0muvtEpyzrAhN1zqakroA/uVXAQxA486fdXmAe04DLNkZ5nlEQ8D2KAhEU+MMQjFKKl9o0scgoelB4iEMyQ==
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    core-js "^3.6.5"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"

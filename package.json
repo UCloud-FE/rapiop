@@ -70,7 +70,7 @@
     "webpack-dev-server": "^3.1.11"
   },
   "peerDependencies": {
-    "@ucloud-fe/mod": "^0.1 | ^1"
+    "@ucloud-fe/mod": "^1"
   },
   "jest": {
     "testMatch": [
